@@ -1,9 +1,9 @@
 
-####################################
-#                                  #
-#   BUILDING ANDROID FROM SOURCE   #
-#                                  #
-####################################
+###########################################
+#                                         #
+#   BUILDING DIRTY UNICORNS FROM SOURCE   #
+#                                         #
+###########################################
 
 In this guide, I will go over how to build Android on your Linux machine.
 This particular tutorial will focus on Ubuntu flavors but this should work with
@@ -22,21 +22,6 @@ terminal window. Don't include the $ or the space that follows it.
 #  Step One: set up your environment  #
 #######################################
 
-You have two options here, the lazy way or the non-lazy way.
-
-Automatic way (recommended!):
--- Grab a repo with some useful scripts, and run the needed one
-$ sudo apt-get install git-core
-$ git clone https://github.com/akhilnarang/scripts
-$ cd scripts
-$ ls
-$ bash setup/<script-name>
-
-Run the script corresponding to your Linux Distribution:
-arch-manjaro.sh - Arch based distros
-android_build_env.sh - Ubuntu 14, Ubuntu 16, Ubuntu 18, Mint 19
-
-Manual way:
 -- Grab Java 8:
 $ sudo apt-get update
 $ sudo apt-get install openjdk-8-jdk
